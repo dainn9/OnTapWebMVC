@@ -1,0 +1,88 @@
+﻿@model Ontap2.Models.Sanpham
+
+@{
+    ViewBag.Title = "Detail";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+@{ 
+    var noibat = Model.NoiBat == 1 ? "Yes" : "No";
+    var trangthai = Model.TrangThai == 1 ? "Available" : "Not available";
+}
+
+<h2>CHI TIẾT SẢN PHẨM</h2>
+
+<div class="container">
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TenSanpham)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TenSanpham)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MoTa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MoTa)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Gia)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Gia)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TrangThai)
+        </dt>
+
+        <dd>
+            @trangthai
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AnhDaiDien)
+        </dt>
+
+        <dd>
+            <img src="~/Content/images/@Model.AnhDaiDien" alt="Alternate Text" />
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NoiBat)
+        </dt>
+
+        <dd>
+            @noibat
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PhanLoaiSanPhamID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PhanLoaiSanPham.TenPhanLoai)
+        </dd>
+
+    </dl>
+<p>
+    <div>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.SanphamID })
+
+    </div>
+    <div>
+    @Html.ActionLink("Back to List", "Index") 
+
+    </div>
+
+    <div>
+        @Html.ActionLink("Delete", "Delete", new {id = Model.SanphamID})
+    </div>
+</p>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ce0d9055adae48cfa6b0732fb83df7f4" Name="Diagram1">
+        <EntityTypeShape EntityType="QuanLyBanQuanAoModel.ChiTietDonHang" Width="1.5" PointX="8.25" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyBanQuanAoModel.ChiTietSanPhamMua" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyBanQuanAoModel.DonHang" Width="1.5" PointX="6" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyBanQuanAoModel.Khachhang" Width="1.5" PointX="3.75" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyBanQuanAoModel.MauSac" Width="1.5" PointX="0.75" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyBanQuanAoModel.PhanLoaiSanPham" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyBanQuanAoModel.Sanpham" Width="1.5" PointX="6" PointY="3" IsExpanded="true" />
+        <AssociationConnector Association="QuanLyBanQuanAoModel.FK_ChiTietDonHang_DonHang" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyBanQuanAoModel.FK_ChiTietDonHang_Sanpham" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyBanQuanAoModel.FK_ChiTietSanPhamMua_ChiTietDonHang" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyBanQuanAoModel.FK_ChiTietSanPhamMua_MauSac" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyBanQuanAoModel.FK_DonHang_Khachhang" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyBanQuanAoModel.FK_Sanpham_PhanLoaiSanPham" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyBanQuanAoModel.SanPhamTheoMauSac" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

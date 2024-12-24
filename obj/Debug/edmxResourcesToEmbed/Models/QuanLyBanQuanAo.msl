@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QuanLyBanQuanAoModelStoreContainer" CdmEntityContainer="QuanLyBanQuanAoEntities">
+    <EntitySetMapping Name="ChiTietDonHangs">
+      <EntityTypeMapping TypeName="QuanLyBanQuanAoModel.ChiTietDonHang">
+        <MappingFragment StoreEntitySet="ChiTietDonHang">
+          <ScalarProperty Name="ChiTietDonHangID" ColumnName="ChiTietDonHangID" />
+          <ScalarProperty Name="DonHangID" ColumnName="DonHangID" />
+          <ScalarProperty Name="SanphamID" ColumnName="SanphamID" />
+          <ScalarProperty Name="SoLuong" ColumnName="SoLuong" />
+          <ScalarProperty Name="DonGia" ColumnName="DonGia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ChiTietSanPhamMuas">
+      <EntityTypeMapping TypeName="QuanLyBanQuanAoModel.ChiTietSanPhamMua">
+        <MappingFragment StoreEntitySet="ChiTietSanPhamMua">
+          <ScalarProperty Name="ChiTietSanPhamMuaID" ColumnName="ChiTietSanPhamMuaID" />
+          <ScalarProperty Name="ChiTietDonHangID" ColumnName="ChiTietDonHangID" />
+          <ScalarProperty Name="MauSacID" ColumnName="MauSacID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DonHangs">
+      <EntityTypeMapping TypeName="QuanLyBanQuanAoModel.DonHang">
+        <MappingFragment StoreEntitySet="DonHang">
+          <ScalarProperty Name="DonHangID" ColumnName="DonHangID" />
+          <ScalarProperty Name="KhachhangID" ColumnName="KhachhangID" />
+          <ScalarProperty Name="NgayDatHang" ColumnName="NgayDatHang" />
+          <ScalarProperty Name="TongTien" ColumnName="TongTien" />
+          <ScalarProperty Name="PTThanhToan" ColumnName="PTThanhToan" />
+          <ScalarProperty Name="TrangThai" ColumnName="TrangThai" />
+          <ScalarProperty Name="GhiChu" ColumnName="GhiChu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Khachhangs">
+      <EntityTypeMapping TypeName="QuanLyBanQuanAoModel.Khachhang">
+        <MappingFragment StoreEntitySet="Khachhang">
+          <ScalarProperty Name="KhachhangID" ColumnName="KhachhangID" />
+          <ScalarProperty Name="HoTen" ColumnName="HoTen" />
+          <ScalarProperty Name="DiaChi" ColumnName="DiaChi" />
+          <ScalarProperty Name="SoDienThoai" ColumnName="SoDienThoai" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="TenDangNhap" ColumnName="TenDangNhap" />
+          <ScalarProperty Name="MatKhau" ColumnName="MatKhau" />
+          <ScalarProperty Name="NgayDangKy" ColumnName="NgayDangKy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MauSacs">
+      <EntityTypeMapping TypeName="QuanLyBanQuanAoModel.MauSac">
+        <MappingFragment StoreEntitySet="MauSac">
+          <ScalarProperty Name="MauSacID" ColumnName="MauSacID" />
+          <ScalarProperty Name="TenMauSac" ColumnName="TenMauSac" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PhanLoaiSanPhams">
+      <EntityTypeMapping TypeName="QuanLyBanQuanAoModel.PhanLoaiSanPham">
+        <MappingFragment StoreEntitySet="PhanLoaiSanPham">
+          <ScalarProperty Name="PhanLoaiSanPhamID" ColumnName="PhanLoaiSanPhamID" />
+          <ScalarProperty Name="TenPhanLoai" ColumnName="TenPhanLoai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sanphams">
+      <EntityTypeMapping TypeName="QuanLyBanQuanAoModel.Sanpham">
+        <MappingFragment StoreEntitySet="Sanpham">
+          <ScalarProperty Name="SanphamID" ColumnName="SanphamID" />
+          <ScalarProperty Name="TenSanpham" ColumnName="TenSanpham" />
+          <ScalarProperty Name="MoTa" ColumnName="MoTa" />
+          <ScalarProperty Name="Gia" ColumnName="Gia" />
+          <ScalarProperty Name="TrangThai" ColumnName="TrangThai" />
+          <ScalarProperty Name="AnhDaiDien" ColumnName="AnhDaiDien" />
+          <ScalarProperty Name="NoiBat" ColumnName="NoiBat" />
+          <ScalarProperty Name="PhanLoaiSanPhamID" ColumnName="PhanLoaiSanPhamID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="SanPhamTheoMauSac" TypeName="QuanLyBanQuanAoModel.SanPhamTheoMauSac" StoreEntitySet="SanPhamTheoMauSac">
+      <EndProperty Name="MauSac">
+        <ScalarProperty Name="MauSacID" ColumnName="MauSacID" />
+      </EndProperty>
+      <EndProperty Name="Sanpham">
+        <ScalarProperty Name="SanphamID" ColumnName="SanphamID" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

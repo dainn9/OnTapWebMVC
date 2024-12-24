@@ -1,0 +1,176 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\BackEnd\\MVC\\THI CUoi ki\\Ontap\\Ontap2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AC6FBE-497A-4FE9-99E4-7B6A14C81E1D}|Ontap2.csproj|D:\\BackEnd\\MVC\\THI CUoi ki\\Ontap\\Ontap2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6AC6FBE-497A-4FE9-99E4-7B6A14C81E1D}|Ontap2.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AC6FBE-497A-4FE9-99E4-7B6A14C81E1D}|Ontap2.csproj|d:\\backend\\mvc\\thi cuoi ki\\ontap\\ontap2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6AC6FBE-497A-4FE9-99E4-7B6A14C81E1D}|Ontap2.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AC6FBE-497A-4FE9-99E4-7B6A14C81E1D}|Ontap2.csproj|d:\\backend\\mvc\\thi cuoi ki\\ontap\\ontap2\\views\\home\\_productlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6AC6FBE-497A-4FE9-99E4-7B6A14C81E1D}|Ontap2.csproj|solutionrelative:views\\home\\_productlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AC6FBE-497A-4FE9-99E4-7B6A14C81E1D}|Ontap2.csproj|d:\\backend\\mvc\\thi cuoi ki\\ontap\\ontap2\\scripts\\js\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B6AC6FBE-497A-4FE9-99E4-7B6A14C81E1D}|Ontap2.csproj|solutionrelative:scripts\\js\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AC6FBE-497A-4FE9-99E4-7B6A14C81E1D}|Ontap2.csproj|D:\\BackEnd\\MVC\\THI CUoi ki\\Ontap\\Ontap2\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6AC6FBE-497A-4FE9-99E4-7B6A14C81E1D}|Ontap2.csproj|solutionrelative:views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AC6FBE-497A-4FE9-99E4-7B6A14C81E1D}|Ontap2.csproj|d:\\backend\\mvc\\thi cuoi ki\\ontap\\ontap2\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6AC6FBE-497A-4FE9-99E4-7B6A14C81E1D}|Ontap2.csproj|solutionrelative:views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AC6FBE-497A-4FE9-99E4-7B6A14C81E1D}|Ontap2.csproj|D:\\BackEnd\\MVC\\THI CUoi ki\\Ontap\\Ontap2\\models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6AC6FBE-497A-4FE9-99E4-7B6A14C81E1D}|Ontap2.csproj|solutionrelative:models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 387,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 387,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_ProductList.cshtml",
+              "DocumentMoniker": "D:\\BackEnd\\MVC\\THI CUoi ki\\Ontap\\Ontap2\\Views\\Home\\_ProductList.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\_ProductList.cshtml",
+              "ToolTip": "D:\\BackEnd\\MVC\\THI CUoi ki\\Ontap\\Ontap2\\Views\\Home\\_ProductList.cshtml",
+              "RelativeToolTip": "Views\\Home\\_ProductList.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-24T17:26:53.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\BackEnd\\MVC\\THI CUoi ki\\Ontap\\Ontap2\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\BackEnd\\MVC\\THI CUoi ki\\Ontap\\Ontap2\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAJoAAAAAAAAAAAA2wBoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T01:24:52.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\BackEnd\\MVC\\THI CUoi ki\\Ontap\\Ontap2\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\BackEnd\\MVC\\THI CUoi ki\\Ontap\\Ontap2\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAPwAAAAAAAAAAAAAAAMBAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-24T16:49:19.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "script.js",
+              "DocumentMoniker": "D:\\BackEnd\\MVC\\THI CUoi ki\\Ontap\\Ontap2\\Scripts\\js\\script.js",
+              "RelativeDocumentMoniker": "Scripts\\js\\script.js",
+              "ToolTip": "D:\\BackEnd\\MVC\\THI CUoi ki\\Ontap\\Ontap2\\Scripts\\js\\script.js",
+              "RelativeToolTip": "Scripts\\js\\script.js",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-24T17:00:48.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Sanpham.cs",
+              "DocumentMoniker": "D:\\BackEnd\\MVC\\THI CUoi ki\\Ontap\\Ontap2\\Models\\Sanpham.cs",
+              "RelativeDocumentMoniker": "Models\\Sanpham.cs",
+              "ToolTip": "D:\\BackEnd\\MVC\\THI CUoi ki\\Ontap\\Ontap2\\Models\\Sanpham.cs",
+              "RelativeToolTip": "Models\\Sanpham.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwCoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T14:59:48.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\BackEnd\\MVC\\THI CUoi ki\\Ontap\\Ontap2\\Views\\Home\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Edit.cshtml",
+              "ToolTip": "D:\\BackEnd\\MVC\\THI CUoi ki\\Ontap\\Ontap2\\Views\\Home\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Home\\Edit.cshtml",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAswG8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-24T13:45:29.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\BackEnd\\MVC\\THI CUoi ki\\Ontap\\Ontap2\\Views\\Home\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Create.cshtml",
+              "ToolTip": "D:\\BackEnd\\MVC\\THI CUoi ki\\Ontap\\Ontap2\\Views\\Home\\Create.cshtml",
+              "RelativeToolTip": "Views\\Home\\Create.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-24T02:06:59.528Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
